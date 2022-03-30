@@ -1,6 +1,6 @@
-FROM NGINX
+from nginx
 
-COPY ./ /usr/share/nginx/html
+copy ./ /usr/share/nginx/html
  
-EXPOSE 80
+expose 80
 
